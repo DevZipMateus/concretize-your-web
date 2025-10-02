@@ -10,8 +10,15 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Sobre nós
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
               Construindo o futuro com solidez, confiança e excelência
+            </p>
+            <p className="text-base text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Especializada em soluções completas para concreto usinado, atendemos 
+              diversos segmentos: <strong>calçadas, lajes, construção industrial, 
+              agrícola, bases de silos, pontes</strong> e muito mais. Nosso concreto 
+              é preparado com a mais alta tecnologia e rigoroso controle de qualidade, 
+              garantindo precisão e resistência em projetos de qualquer porte.
             </p>
           </div>
 

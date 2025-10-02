@@ -6,7 +6,15 @@ const Products = () => {
     {
       icon: Package,
       title: "Concreto usinado",
-      description: "Diversas classes de resistência e slump para atender às necessidades específicas da sua obra."
+      description: "Diversas classes de resistência e slump para atender às necessidades específicas da sua obra.",
+      items: [
+        "Calçadas e passeios",
+        "Lajes residenciais e comerciais",
+        "Construção industrial",
+        "Construção agrícola",
+        "Bases de silos",
+        "Pontes e viadutos"
+      ]
     },
     {
       icon: Droplets,
@@ -56,18 +64,18 @@ const Products = () => {
                   </div>
                   <CardTitle className="text-xl">{product.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  {product.description && (
-                    <p className="text-muted-foreground">{product.description}</p>
-                  )}
-                  {product.items && (
-                    <ul className="text-muted-foreground space-y-2">
-                      {product.items.map((item, i) => (
-                        <li key={i}>• {item}</li>
-                      ))}
-                    </ul>
-                  )}
-                </CardContent>
+                 <CardContent>
+                   {product.description && (
+                     <p className="text-muted-foreground mb-3">{product.description}</p>
+                   )}
+                   {product.items && (
+                     <ul className="text-muted-foreground space-y-2">
+                       {product.items.map((item, i) => (
+                         <li key={i}>• {item}</li>
+                       ))}
+                     </ul>
+                   )}
+                 </CardContent>
               </Card>
             ))}
           </div>

@@ -1,4 +1,4 @@
-import { Truck, Users, Microscope, HardHat, Ruler } from "lucide-react";
+import { Truck, Users, Microscope, HardHat, Ruler, Waves } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Services = () => {
@@ -27,6 +27,11 @@ const Services = () => {
       icon: Microscope,
       title: "Ensaios e controle tecnológico",
       description: "Monitoramento da qualidade do concreto para atender às normas técnicas."
+    },
+    {
+      icon: Waves,
+      title: "Bombas lança concreto",
+      description: "Equipamentos modernos para aplicação com mais facilidade, precisão e alcance em obras de qualquer porte."
     }
   ];
 

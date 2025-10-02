@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Instagram, User } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -18,40 +18,83 @@ const Contact = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-6">
-              <Card className="border-border">
-                <CardContent className="pt-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="h-5 w-5 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1 text-foreground">Endereço</h3>
-                      <p className="text-muted-foreground">RUA PROJETADA 03, 237</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+               <Card className="border-border">
+                 <CardContent className="pt-6">
+                   <div className="flex items-start gap-4">
+                     <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                       <MapPin className="h-5 w-5 text-primary" />
+                     </div>
+                     <div>
+                       <h3 className="font-semibold mb-1 text-foreground">Endereços</h3>
+                       <p className="text-muted-foreground mb-2">RUA PROJETADA 03, 237</p>
+                       <p className="text-muted-foreground">Polo Industrial - Estrada da Pedreira, Saída para Jardim</p>
+                     </div>
+                   </div>
+                 </CardContent>
+               </Card>
 
-              <Card className="border-border">
-                <CardContent className="pt-6">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Phone className="h-5 w-5 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold mb-1 text-foreground">Telefone</h3>
-                      <a
-                        href="https://wa.me/5567996517667"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                      >
-                        (67) 99651-7667
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+               <Card className="border-border">
+                 <CardContent className="pt-6">
+                   <div className="flex items-start gap-4">
+                     <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                       <User className="h-5 w-5 text-primary" />
+                     </div>
+                     <div>
+                       <h3 className="font-semibold mb-1 text-foreground">Dejair</h3>
+                       <a
+                         href="https://wa.me/556799748404"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         className="text-muted-foreground hover:text-primary transition-colors"
+                       >
+                         (67) 99974-8404
+                       </a>
+                     </div>
+                   </div>
+                 </CardContent>
+               </Card>
+
+               <Card className="border-border">
+                 <CardContent className="pt-6">
+                   <div className="flex items-start gap-4">
+                     <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                       <User className="h-5 w-5 text-primary" />
+                     </div>
+                     <div>
+                       <h3 className="font-semibold mb-1 text-foreground">Diogo</h3>
+                       <a
+                         href="https://wa.me/556799742948"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         className="text-muted-foreground hover:text-primary transition-colors"
+                       >
+                         (67) 99974-2948
+                       </a>
+                     </div>
+                   </div>
+                 </CardContent>
+               </Card>
+
+               <Card className="border-border">
+                 <CardContent className="pt-6">
+                   <div className="flex items-start gap-4">
+                     <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                       <Phone className="h-5 w-5 text-primary" />
+                     </div>
+                     <div>
+                       <h3 className="font-semibold mb-1 text-foreground">Telefone geral</h3>
+                       <a
+                         href="https://wa.me/5567996517667"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         className="text-muted-foreground hover:text-primary transition-colors"
+                       >
+                         (67) 99651-7667
+                       </a>
+                     </div>
+                   </div>
+                 </CardContent>
+               </Card>
 
               <Card className="border-border">
                 <CardContent className="pt-6">
